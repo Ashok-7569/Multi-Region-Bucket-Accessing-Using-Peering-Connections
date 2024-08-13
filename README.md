@@ -4,6 +4,10 @@
 
 This project presents an advanced architecture for accessing Amazon S3 buckets across multiple AWS regions. By leveraging key AWS services such as Multi-Region Access Points, AWS PrivateLink, VPC Peering, and S3 Cross-Region Replication (CRR), we aim to improve data availability, security, and performance in a globally distributed setup.
 
+## Architectural Design
+
+![Architecture Diagram](layout.jpg)
+
 ## Key Features
 
 - **Multi-Region Access Points:** Centralized routing of S3 requests to the nearest available bucket, reducing network complexity and improving performance.
